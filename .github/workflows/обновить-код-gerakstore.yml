@@ -42,16 +42,11 @@ jobs:
                   continue
 
               original = s
-              # Сохраняем технические идентификаторы совместимости.
-              protected = {
-                  'com.gkuhtov.gerastore': '__GERAKSTORE_PROTECTED_BUNDLE__'
-              }
+              protected = {'com.gkuhtov.gerastore': '__GERAKSTORE_PROTECTED_BUNDLE__'}
               for old, marker in protected.items():
                   s = s.replace(old, marker)
-
               s = s.replace('GeraStore', 'GeraKStore')
               s = s.replace('gerastore', 'gerakstore')
-
               for old, marker in protected.items():
                   s = s.replace(marker, old)
 
@@ -64,12 +59,13 @@ jobs:
               print(p)
           PY
 
-      - name: Зафиксировать изменения
+      - name: Зафиксировать изменения и удалить одноразовый workflow
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f .github/workflows/обновить-код-gerakstore.yml
           git add -A
           if git diff --cached --quiet; then
             echo "Изменений нет"
