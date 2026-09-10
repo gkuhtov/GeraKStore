@@ -1,3 +1,5 @@
+# GeraStore
+
 <p align="center">
   <img src="icons/app_icon.png" alt="GeraStore" width="120" height="120" style="border-radius: 28px;">
 </p>
@@ -5,108 +7,51 @@
 <h1 align="center">GeraStore</h1>
 
 <p align="center">
-  <strong>Русский каталог IPA-приложений для GBox</strong>
-</p>
-
-<p align="center">
-  <a href="https://gkuhtov.github.io/GeraKStore-Web/#top"><img src="https://img.shields.io/badge/Сайт-GeraStore-8b5cf6?style=for-the-badge&logo=github" alt="Website"></a>
-  <a href="https://gkuhtov.github.io/GeraStore/repo.json"><img src="https://img.shields.io/badge/Источник-repo.json-34d399?style=for-the-badge" alt="Source"></a>
-  <img src="https://img.shields.io/badge/Лицензия-MIT-blue?style=for-the-badge" alt="License">
-</p>
-
-<p align="center">
-  by <strong>Гера Кухтов (ГЕРЫЧ)</strong>
+  <strong>Место, где собраны приложения для GBox</strong><br>
+  <sub>Удобный каталог IPA-приложений в едином стиле GeraKStore</sub>
 </p>
 
 ---
 
-## Что это?
+## ✦ Что такое GeraStore?
 
-**GeraStore** — открытый источник приложений для [GBox](https://gbox.run).  
-Здесь собраны полезные IPA, которые можно устанавливать через GBox с самоподписью (`SELF_SIGN`).
+**GeraStore** - это каталог приложений для iPhone и iPad, созданный для тех, кто любит удобство, красивые интерфейсы и всё необходимое в одном месте.
 
-Все файлы хранятся в GitHub Releases — быстро, надёжно и бесплатно.
-
----
-
-## Как добавить источник в GBox
-
-1. Открой **GBox**
-2. Перейди в раздел **Источники**
-3. Нажми **+** / **Добавить источник**
-4. Вставь одну из ссылок:
-
-```
-https://gkuhtov.github.io/GeraStore/repo.json
-```
-
-или
-
-```
-https://raw.githubusercontent.com/gkuhtov/GeraStore/main/repo.json
-```
-
-5. Готово — приложения появятся в каталоге
+Здесь собраны приложения, которые можно найти, посмотреть и установить через совместимые инструменты.
 
 ---
 
-## Особенности
+## 📱 Что здесь есть
 
-| | |
-|---|---|
-| 🇷🇺 | Полностью русский интерфейс и описания |
-| 🎨 | Современный дизайн |
-| 📂 | Удобные категории |
-| 🔄 | Регулярные обновления |
-| 📦 | IPA в GitHub Releases |
-| 🔓 | Открытый исходный код |
-
----
-
-## Ссылки
-
-- **Сайт источника:** [gkuhtov.github.io/GeraStore](https://gkuhtov.github.io/GeraKStore-Web/#top)
-- **repo.json:** [прямая ссылка](https://gkuhtov.github.io/GeraStore/repo.json)
-- **GitHub:** [gkuhtov/GeraStore](https://github.com/gkuhtov/GeraStore)
+- 📦 Каталог приложений
+- 🎨 Красивое оформление
+- 📂 Удобные категории
+- 🔎 Быстрый поиск
+- 🔄 Новые версии и обновления
+- 🇷🇺 Русские описания
+- ✨ Единый стиль GeraKStore
 
 ---
 
-## Структура репозитория
+## 💎 Наша идея
 
-```
-GeraStore/
-├── .github/ISSUE_TEMPLATE/ ← шаблоны Issues
-├── assets/hero.mp4         ← видео для страницы
-├── icons/                  ← иконки приложений
-├── ipa/.gitkeep            ← каталог для локальных IPA
-├── plist/                  ← appPlist-файлы приложений
-├── index.html              ← страница-лендинг
-├── repo.json               ← основной источник для GBox
-├── LICENSE                 ← MIT
-└── README.md               ← документация
-```
+GeraStore создавался как простое и понятное место для приложений.
 
-IPA-файлы лежат в **GitHub Releases** (так удобнее работать с большими файлами).
+Без лишнего. Без сложных инструкций. Просто открой каталог, найди нужное приложение и переходи к установке.
+
+Мы постепенно развиваем GeraStore и добавляем новые приложения, возможности и элементы оформления.
 
 ---
 
-## Предупреждение
+## 🌐 GeraKStore
 
-> Все приложения требуют **самоподписи** (`SELF_SIGN`).  
-> Использование неофициальных IPA может нарушать правила App Store и нести риски (бан аккаунта, malware и т.д.).  
-> Автор не несёт ответственности. Используйте на свой страх и риск.
+GeraStore - часть экосистемы **GeraKStore**.
 
----
-
-## Как помочь проекту
-
-- Сообщай о битых ссылках через Issues
-- Предлагай новые приложения
-- Улучшай описания и скриншоты
-- Делай Pull Request’ы
+Наша цель - объединить приложения, красивый дизайн и удобство использования в одном месте.
 
 ---
 
 <p align="center">
-  Сделано с ❤️ для русскоязычного сообщества GBox
+  <strong>Добро пожаловать в GeraStore.</strong><br>
+  <sub>Создано и поддерживается GeraK</sub>
 </p>
