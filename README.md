@@ -75,12 +75,15 @@ https://raw.githubusercontent.com/gkuhtov/GeraStore/main/repo.json
 
 ```
 GeraStore/
-├── repo.json          ← основной файл источника для GBox
-├── index.html         ← красивая страница-лендинг
-├── icons/             ← иконки приложений
-├── apps/              ← исходные данные
-├── generator.py       ← скрипт генерации
-└── LICENSE            ← MIT
+├── .github/ISSUE_TEMPLATE/ ← шаблоны Issues
+├── assets/hero.mp4         ← видео для страницы
+├── icons/                  ← иконки приложений
+├── ipa/.gitkeep            ← каталог для локальных IPA
+├── plist/                  ← appPlist-файлы приложений
+├── index.html              ← страница-лендинг
+├── repo.json               ← основной источник для GBox
+├── LICENSE                 ← MIT
+└── README.md               ← документация
 ```
 
 IPA-файлы лежат в **GitHub Releases** (так удобнее работать с большими файлами).
