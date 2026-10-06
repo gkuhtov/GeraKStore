@@ -7,7 +7,7 @@
   "sourceLinkUrl": "https://github.com/gkuhtov/GeraKStore",
   "sourceImage": "https://gkuhtov.github.io/GeraKStore/icons/app_icon.png",
   "sourceDescription": "Каталог IPA приложений для GBox.",
-  "sourceUpdateTime": "2026-09-05T16:03:59+0800",
+  "sourceUpdateTime": "2026-10-06T15:09:22+0800",
   "appCategories": [
     "Игры",
     "Приложения",
@@ -539,6 +539,49 @@
           "category": "Музыка",
           "localizedDescription": "⚙️Особенности МОДА⚙️\n\n🩷Премиум-функции разблокированы.\n🩷Без рекламы.\n🩷Офлайн-прослушивание и высокое качество звука.\n\n🎵 Яндекс Музыка - миллионы треков, подкастов и аудиокниг, персональные рекомендации «Моя волна» и музыка без ограничений.",
           "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/ru.yandex.mobile.music.png"
+        }
+      ]
+    },
+    {
+      "appType": "SELF_SIGN",
+      "category": "Другое",
+      "appCateIndex": 14,
+      "appUpdateTime": "2026-10-06T15:09:22+0800",
+      "versionDate": "2026-10-06T07:09:22Z",
+      "appName": "MAX",
+      "appVersion": "26.17.3",
+      "appImage": "https://gkuhtov.github.io/GeraKStore/icons/ru.oneme.app.png",
+      "appPackage": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-ru.oneme.app-26.17.3/MAX_26.17.3.ipa",
+      "appDescription": "⚙️Особенности⚙️\n\n🩷Мессенджер, который вам совершенно не нужен.\n🩷Сообщения, звонки и всё самое необходимое.\n🩷Максимум внимания к вашей активности. 👀\n\n👀 MAX - зачем вам столько приватности, если можно просто установить ещё один мессенджер? Никакой паники, просто лёгкое ощущение, что за вами кто-то наблюдает.",
+      "name": "MAX",
+      "bundleIdentifier": "ru.oneme.app",
+      "developerName": "",
+      "subtitle": "",
+      "localizedDescription": "⚙️Особенности⚙️\n\n🩷Мессенджер, который вам совершенно не нужен.\n🩷Сообщения, звонки и всё самое необходимое.\n🩷Максимум внимания к вашей активности. 👀\n\n👀 MAX - зачем вам столько приватности, если можно просто установить ещё один мессенджер? Никакой паники, просто лёгкое ощущение, что за вами кто-то наблюдает.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/ru.oneme.app.png",
+      "version": "26.17.3",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-ru.oneme.app-26.17.3/MAX_26.17.3.ipa",
+      "size": 55778660,
+      "appSize": 55778660,
+      "fileSize": 55778660,
+      "appFileSize": 55778660,
+      "human_file_size": "53.2 MB",
+      "minimumOSVersion": "10.0",
+      "versions": [
+        {
+          "version": "26.17.3",
+          "date": "2026-10-06T07:09:22Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-ru.oneme.app-26.17.3/MAX_26.17.3.ipa",
+          "size": 55778660,
+          "appSize": 55778660,
+          "fileSize": 55778660,
+          "appFileSize": 55778660,
+          "human_file_size": "53.2 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/ru.oneme.app.plist",
+          "minimumOSVersion": "10.0",
+          "category": "Другое",
+          "localizedDescription": "⚙️Особенности⚙️\n\n🩷Мессенджер, который вам совершенно не нужен.\n🩷Сообщения, звонки и всё самое необходимое.\n🩷Максимум внимания к вашей активности. 👀\n\n👀 MAX - зачем вам столько приватности, если можно просто установить ещё один мессенджер? Никакой паники, просто лёгкое ощущение, что за вами кто-то наблюдает.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/ru.oneme.app.png"
         }
       ]
     }
