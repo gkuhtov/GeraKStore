@@ -1,0 +1,66 @@
+name: Validate Store Catalog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "repo.json"
+      - "icons/**"
+      - "plist/**"
+      - ".github/workflows/validate-catalog.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "repo.json"
+      - "icons/**"
+      - "plist/**"
+      - ".github/workflows/validate-catalog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate repository catalog
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          root = Path(".")
+          catalog = json.loads((root / "repo.json").read_text(encoding="utf-8"))
+          apps = catalog.get("appRepositories")
+          assert isinstance(apps, list) and apps, "repo.json must contain appRepositories"
+          ids = [a.get("bundleIdentifier") or a.get("bundleID") for a in apps]
+          ids = [value for value in ids if value]
+          assert len(ids) == len(set(ids)), "duplicate bundle identifiers detected"
+
+          for app in apps:
+              name = app.get("appName") or app.get("name") or "(unknown)"
+              assert app.get("appPackage"), f"missing IPA URL: {name}"
+              assert app.get("appImage"), f"missing app icon URL: {name}"
+              assert app["appPackage"].startswith("https://"), f"IPA URL must use HTTPS: {name}"
+              assert app["appImage"].startswith("https://"), f"icon URL must use HTTPS: {name}"
+              for version in app.get("versions", []):
+                  icon = version.get("iconURL", "")
+                  if icon:
+                      parsed = urlparse(icon)
+                      assert parsed.scheme == "https", f"version icon must use HTTPS: {name}"
+                      if parsed.netloc == "gkuhtov.github.io":
+                          rel = parsed.path.removeprefix("/GeraKStore/")
+                          assert (root / rel).is_file(), f"version icon missing: {rel}"
+                  plist = version.get("appPlist", "")
+                  if plist:
+                      parsed = urlparse(plist)
+                      assert parsed.scheme == "https" and parsed.netloc == "gkuhtov.github.io", f"invalid plist URL: {name}"
+                      rel = parsed.path.removeprefix("/GeraKStore/")
+                      assert (root / rel).is_file(), f"plist file missing: {rel}"
+
+          print(f"OK: {len(apps)} apps, unique identifiers, HTTPS links, and local icons/plists verified.")
+          PY
