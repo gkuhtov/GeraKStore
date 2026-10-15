@@ -4,7 +4,7 @@
 
 ### Каталог приложений экосистемы GeraK
 
-**Единые данные приложений, значки и манифесты каталога.**
+**📦 Здесь GeraKStore получает новые приложения и немного внимания.**
 
 [Веб-каталог](https://gkuhtov.github.io/GeraKStore/) · [Менеджер](https://github.com/gkuhtov/GeraKStore-Manager)
 
