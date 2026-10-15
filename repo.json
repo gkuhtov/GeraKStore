@@ -65,7 +65,7 @@
           "minimumOSVersion": "",
           "category": "Финансы",
           "localizedDescription": "⚙️Особенности⚙️\n\n🩷Новое приложение, удалённое из ❌💙AppStore.\n🩷Бесконтактная оплата с iPhone через Bluetooth.\n🩷Новые функции и улучшения.\n\n💳 А-Ключ - новое приложение Альфа-Банка для iPhone с поддержкой бесконтактной оплаты.",
-          "iconURL": "assets/icons/com.kluchapp.prod.png"
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.kluchapp.prod.png"
         }
       ]
     },
@@ -276,11 +276,11 @@
           "fileSize": 296656711,
           "appFileSize": 296656711,
           "human_file_size": "282.9 MB",
-          "appPlist": "https://gkuht.github.io/GeraKStore/plist/com.inv.gen.plist",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.inv.gen.plist",
           "minimumOSVersion": "",
           "category": "Финансы",
           "localizedDescription": "⚙️Особенности⚙️\n\n🩷Переводы и платежи.\n🩷Новое приложение, удалённое из ❌💙AppStore.\n🩷Оплата услуг по QR-коду.\n\n🏦 СберБанк Онлайн - полноценное банковское приложение для управления финансами, платежей и переводов с iPhone.",
-          "iconURL": "assets/icons/com.inv.gen.png"
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.inv.gen.png"
         }
       ]
     },
@@ -319,11 +319,11 @@
           "fileSize": 379282059,
           "appFileSize": 379282059,
           "human_file_size": "361.7 MB",
-          "appPlist": "https://gkuht.github.io/GeraKStore/plist/com.sm.FlowTime.plist",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.sm.FlowTime.plist",
           "minimumOSVersion": "",
           "category": "Финансы",
           "localizedDescription": "⚙️Особенности⚙️\n\n🩷Переводы по номеру телефона.\n🩷Недоступно в ❌💙AppStore.\n🩷Оплата покупок и услуг.\n\n💳 ВТБ Онлайн позволяет управлять картами и счетами, совершать переводы, оплачивать покупки и услуги прямо с iPhone.",
-          "iconURL": "assets/icons/com.sm.FlowTime.png"
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.sm.FlowTime.png"
         }
       ]
     },
@@ -362,11 +362,11 @@
           "fileSize": 148911591,
           "appFileSize": 148911591,
           "human_file_size": "142.0 MB",
-          "appPlist": "https://gkuht.github.io/GeraKStore/plist/com.iteration-mobile.radarbot-free-ww.plist",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.iteration-mobile.radarbot-free-ww.plist",
           "minimumOSVersion": "",
           "category": "Навигация",
           "localizedDescription": "⚙️Особенности PRO⚙️\n\n🩷Без рекламы.\n🩷Визуальная интеграция с другими приложениями.\n🩷Работа в фоновом режиме.\n\n🚗 Radarbot предупреждает о камерах контроля и опасных участках дороги. Приложение работает в фоне и может использоваться вместе с навигатором.",
-          "iconURL": "assets/icons/com.iteration-mobile.radarbot-free-ww.png"
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.iteration-mobile.radarbot-free-ww.png"
         }
       ]
     },
