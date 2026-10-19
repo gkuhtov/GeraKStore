@@ -7,7 +7,7 @@
   "sourceLinkUrl": "https://github.com/gkuhtov/GeraKStore",
   "sourceImage": "https://gkuhtov.github.io/GeraKStore/icons/app_icon.png",
   "sourceDescription": "Каталог IPA приложений для GBox.",
-  "sourceUpdateTime": "2026-10-19T20:26:41+0800",
+  "sourceUpdateTime": "2026-10-19T21:15:58+0800",
   "appCategories": [
     "Игры",
     "Приложения",
@@ -640,6 +640,49 @@
           "category": "Развлечения",
           "localizedDescription": "⚙️Особенности⚙️\n\n🩷Просмотр фильмов, сериалов и блогов.\n🩷Прямые эфиры и популярные видео.\n🩷Если появляется запрос код-пароля, просто закройте это окно.\n\n🎬 VK Видео - смотрите любимые ролики, открывайте новые каналы и находите интересный контент в удобном видеоплеере.",
           "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.vk.vkvideo.prod.png"
+        }
+      ]
+    },
+    {
+      "appType": "SELF_SIGN",
+      "category": "Музыка",
+      "appCateIndex": 8,
+      "appUpdateTime": "2026-10-19T21:15:58+0800",
+      "versionDate": "2026-10-19T13:15:58Z",
+      "appName": "GeraKMusic",
+      "appVersion": "777",
+      "appImage": "https://gkuhtov.github.io/GeraKStore/icons/com.gerakmusic.app.png",
+      "appPackage": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.gerakmusic.app-777/GeraKMusic.ipa",
+      "appDescription": "🩷Особенности🩷\n\n🩷Снятие ограничений фонового режима и отключение рекламных вставок при воспроизведении.\n🩷Полноценная загрузка музыки в память устройства для стабильного прослушивания без доступа к сети.\n🩷Удобная работа с плейлистами, разделом «Моя музыка» и оригинальными обложками релизов.\n\n🎧 Никаких подписок, никакого бреда - только нормальный плеер, доведённый до ума своими руками. Пару бессонных ночей, немного магии - и теперь всё работает по-человечески. Пользуйся, не благодари!",
+      "name": "GeraKMusic",
+      "bundleIdentifier": "com.gerakmusic.app",
+      "developerName": "ГЕРЫЧ",
+      "subtitle": "",
+      "localizedDescription": "🩷Особенности🩷\n\n🩷Снятие ограничений фонового режима и отключение рекламных вставок при воспроизведении.\n🩷Полноценная загрузка музыки в память устройства для стабильного прослушивания без доступа к сети.\n🩷Удобная работа с плейлистами, разделом «Моя музыка» и оригинальными обложками релизов.\n\n🎧 Никаких подписок, никакого бреда - только нормальный плеер, доведённый до ума своими руками. Пару бессонных ночей, немного магии - и теперь всё работает по-человечески. Пользуйся, не благодари!",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.gerakmusic.app.png",
+      "version": "777",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.gerakmusic.app-777/GeraKMusic.ipa",
+      "size": 7995376,
+      "appSize": 7995376,
+      "fileSize": 7995376,
+      "appFileSize": 7995376,
+      "human_file_size": "7.6 MB",
+      "minimumOSVersion": "10.0",
+      "versions": [
+        {
+          "version": "777",
+          "date": "2026-10-19T13:15:58Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.gerakmusic.app-777/GeraKMusic.ipa",
+          "size": 7995376,
+          "appSize": 7995376,
+          "fileSize": 7995376,
+          "appFileSize": 7995376,
+          "human_file_size": "7.6 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.gerakmusic.app.plist",
+          "minimumOSVersion": "10.0",
+          "category": "Музыка",
+          "localizedDescription": "🩷Особенности🩷\n\n🩷Снятие ограничений фонового режима и отключение рекламных вставок при воспроизведении.\n🩷Полноценная загрузка музыки в память устройства для стабильного прослушивания без доступа к сети.\n🩷Удобная работа с плейлистами, разделом «Моя музыка» и оригинальными обложками релизов.\n\n🎧 Никаких подписок, никакого бреда - только нормальный плеер, доведённый до ума своими руками. Пару бессонных ночей, немного магии - и теперь всё работает по-человечески. Пользуйся, не благодари!",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.gerakmusic.app.png"
         }
       ]
     }
