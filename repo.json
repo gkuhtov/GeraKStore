@@ -7,7 +7,7 @@
   "sourceLinkUrl": "https://github.com/gkuhtov/GeraKStore",
   "sourceImage": "https://gkuhtov.github.io/GeraKStore/icons/app_icon.png",
   "sourceDescription": "Каталог IPA приложений для GBox.",
-  "sourceUpdateTime": "2026-10-19T22:08:37+0800",
+  "sourceUpdateTime": "2026-10-19T22:30:29+0800",
   "appCategories": [
     "Игры",
     "Приложения",
@@ -640,6 +640,49 @@
           "category": "Развлечения",
           "localizedDescription": "⚙️Особенности⚙️\n\n🩷Просмотр фильмов, сериалов и блогов.\n🩷Прямые эфиры и популярные видео.\n🩷Если появляется запрос код-пароля, просто закройте это окно.\n\n🎬 VK Видео - смотрите любимые ролики, открывайте новые каналы и находите интересный контент в удобном видеоплеере.",
           "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.vk.vkvideo.prod.png"
+        }
+      ]
+    },
+    {
+      "appType": "SELF_SIGN",
+      "category": "Музыка",
+      "appCateIndex": 8,
+      "appUpdateTime": "2026-10-19T22:30:29+0800",
+      "versionDate": "2026-10-19T14:30:29Z",
+      "appName": "GeraKMusic",
+      "appVersion": "777",
+      "appImage": "https://gkuhtov.github.io/GeraKStore/icons/com.gerakmusic.app.png",
+      "appPackage": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.gerakmusic.app-777/GeraKMusic.ipa",
+      "appDescription": "⚙️Особенности МОДА⚙️\n\n🩷Фон без ограничений и рекламы.\n🩷Загрузка треков в память устройства.\n🩷Качественный звук без сжатия.\n\n🎧 Мод VK Музыки без подписок и ограничений. Доведён до ума своими руками: пару бессонных ночей, немного магии — и теперь всё работает по-человечески. Пользуйся, не благодари!",
+      "name": "GeraKMusic",
+      "bundleIdentifier": "com.gerakmusic.app",
+      "developerName": "ГЕРЫЧ",
+      "subtitle": "",
+      "localizedDescription": "⚙️Особенности МОДА⚙️\n\n🩷Фон без ограничений и рекламы.\n🩷Загрузка треков в память устройства.\n🩷Качественный звук без сжатия.\n\n🎧 Мод VK Музыки без подписок и ограничений. Доведён до ума своими руками: пару бессонных ночей, немного магии — и теперь всё работает по-человечески. Пользуйся, не благодари!",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.gerakmusic.app.png",
+      "version": "777",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.gerakmusic.app-777/GeraKMusic.ipa",
+      "size": 7210740,
+      "appSize": 7210740,
+      "fileSize": 7210740,
+      "appFileSize": 7210740,
+      "human_file_size": "6.9 MB",
+      "minimumOSVersion": "10.0",
+      "versions": [
+        {
+          "version": "777",
+          "date": "2026-10-19T14:30:29Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.gerakmusic.app-777/GeraKMusic.ipa",
+          "size": 7210740,
+          "appSize": 7210740,
+          "fileSize": 7210740,
+          "appFileSize": 7210740,
+          "human_file_size": "6.9 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.gerakmusic.app.plist",
+          "minimumOSVersion": "10.0",
+          "category": "Музыка",
+          "localizedDescription": "⚙️Особенности МОДА⚙️\n\n🩷Фон без ограничений и рекламы.\n🩷Загрузка треков в память устройства.\n🩷Качественный звук без сжатия.\n\n🎧 Мод VK Музыки без подписок и ограничений. Доведён до ума своими руками: пару бессонных ночей, немного магии — и теперь всё работает по-человечески. Пользуйся, не благодари!",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.gerakmusic.app.png"
         }
       ]
     }
