@@ -7,7 +7,7 @@
   "sourceLinkUrl": "https://github.com/gkuhtov/GeraKStore",
   "sourceImage": "https://gkuhtov.github.io/GeraKStore/icons/app_icon.png",
   "sourceDescription": "Каталог IPA приложений для GBox.",
-  "sourceUpdateTime": "2026-10-19T18:52:58+0800",
+  "sourceUpdateTime": "2026-10-19T20:26:41+0800",
   "appCategories": [
     "Игры",
     "Приложения",
@@ -597,6 +597,49 @@
           "category": "Социальные сети",
           "localizedDescription": "⚙️Особенности МОДА⚙️\n\n🩷Скачивание видео, музыки, клипов и историй.\n🩷Режим инкогнито для просмотра ленты и сообщений.\n🩷Настройки найдете по пункту > Настройки ВК > OrwellVK.\n\n👁️ VK Orwell - модифицированный ВКонтакте с расширенными возможностями загрузки контента, скрытого просмотра и настройки интерфейса.",
           "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.vk.vkclient.png"
+        }
+      ]
+    },
+    {
+      "appType": "SELF_SIGN",
+      "category": "Развлечения",
+      "appCateIndex": 5,
+      "appUpdateTime": "2026-10-19T20:26:41+0800",
+      "versionDate": "2026-10-19T12:26:41Z",
+      "appName": "VK Video",
+      "appVersion": "8.183",
+      "appImage": "https://gkuhtov.github.io/GeraKStore/icons/com.vk.vkvideo.prod.png",
+      "appPackage": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.vk.vkvideo.prod-8.183/VK.Video.v8.183.ipa",
+      "appDescription": "⚙️Особенности⚙️\n\n🩷Просмотр фильмов, сериалов и блогов.\n🩷Прямые эфиры и популярные видео.\n🩷Если появляется запрос код-пароля, просто закройте это окно.\n\n🎬 VK Видео - смотрите любимые ролики, открывайте новые каналы и находите интересный контент в удобном видеоплеере.",
+      "name": "VK Video",
+      "bundleIdentifier": "com.vk.vkvideo.prod",
+      "developerName": "ГЕРЫЧ",
+      "subtitle": "",
+      "localizedDescription": "⚙️Особенности⚙️\n\n🩷Просмотр фильмов, сериалов и блогов.\n🩷Прямые эфиры и популярные видео.\n🩷Если появляется запрос код-пароля, просто закройте это окно.\n\n🎬 VK Видео - смотрите любимые ролики, открывайте новые каналы и находите интересный контент в удобном видеоплеере.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.vk.vkvideo.prod.png",
+      "version": "8.183",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.vk.vkvideo.prod-8.183/VK.Video.v8.183.ipa",
+      "size": 132525845,
+      "appSize": 132525845,
+      "fileSize": 132525845,
+      "appFileSize": 132525845,
+      "human_file_size": "126.4 MB",
+      "minimumOSVersion": "17.6",
+      "versions": [
+        {
+          "version": "8.183",
+          "date": "2026-10-19T12:26:41Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.vk.vkvideo.prod-8.183/VK.Video.v8.183.ipa",
+          "size": 132525845,
+          "appSize": 132525845,
+          "fileSize": 132525845,
+          "appFileSize": 132525845,
+          "human_file_size": "126.4 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.vk.vkvideo.prod.plist",
+          "minimumOSVersion": "17.6",
+          "category": "Развлечения",
+          "localizedDescription": "⚙️Особенности⚙️\n\n🩷Просмотр фильмов, сериалов и блогов.\n🩷Прямые эфиры и популярные видео.\n🩷Если появляется запрос код-пароля, просто закройте это окно.\n\n🎬 VK Видео - смотрите любимые ролики, открывайте новые каналы и находите интересный контент в удобном видеоплеере.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.vk.vkvideo.prod.png"
         }
       ]
     }
